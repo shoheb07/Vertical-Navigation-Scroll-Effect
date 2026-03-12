@@ -1,0 +1,51 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+.container{
+display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+position:fixed;
+height:100vh;
+width:200px;
+background:#111;
+padding-top:20px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:15px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.sidebar a:hover{
+background:#444;
+}
+
+/* Active Link */
+.sidebar a.active{
+background:#00bcd4;
+}
+
+/* Content */
+.content{
+margin-left:200px;
+width:100%;
+}
+
+section{
+height:100vh;
+padding:40px;
+font-size:40px;
+}
